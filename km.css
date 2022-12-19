@@ -1,0 +1,392 @@
+body{
+    margin: 0%;
+    font-family: 'Russo One', sans-serif;
+}
+.nav-bar{
+    height: 150px;
+    width: 75%;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav-text{
+    text-decoration: none;
+    color: #FFF;
+    font-family: 'Russo One', sans-serif;
+}
+.buttons{
+    width: 25% ;
+    height: 150px;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.loc-ear{
+    width: 25px;
+    cursor: pointer;
+    filter: contrast(0%);
+    filter: hue-rotate(25%);
+    filter: invert(100%);
+}
+.ktm-logo{
+    width: 167px;
+    cursor: pointer;
+}
+.main-div{
+    width: 100%;
+}
+.f-img{
+    width: 100%;
+    height: 660px;
+
+}
+.navig-text{
+    color: #FFF;
+    font-size: 20px;
+}
+.mass{
+    font-size: 70px;
+}
+.take-long{
+    width: 100%;
+    height: 510px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.nav-btn{
+    width: 160px;
+    font-size: 17px;
+    height: 80px;
+    font-family: 'Russo One', sans-serif;
+    background-color:rgb(255, 85, 23);
+    border: solid 1px;
+    border-color: rgb(255, 85, 23);
+    cursor: pointer;
+    transition: 0.5s;
+}
+.nav-btn:hover{
+    background: none;
+    color: rgb(255, 85, 23);
+    
+
+}
+.nav-btns{
+    width: 230px;
+    font-size: 17px;
+    height: 80px;
+    font-family: 'Russo One', sans-serif;
+    background-color: rgb(255, 85, 23);
+    border: solid 1px;
+    border-color: rgb(255, 85, 23);
+    margin-left: 40px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.nav-btns:hover{
+    background: none;
+    color: rgb(255, 85, 23);
+}
+.thebrand-div{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.brand-text{
+    font-family: 'Russo One', sans-serif;
+    font-size: 77px;
+}
+.brand-dis{
+    color: orangered;
+}
+.btn-div{
+    height: 100px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.con-btn{
+    height: 80px;
+    background-color: #FFF;
+    width: 220px;
+    border: solid 1;
+    font-family: 'Russo One', sans-serif;
+    font-size: 17px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.con-btn:hover{
+    background-color: black;
+    color: #FFF;
+}
+.exp-btn{
+    height: 80px;
+    width: 270px;
+    background-color: black;
+    color: #FFF;
+    font-family: 'Russo One', sans-serif;
+    font-size: 17px;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-left: 90px;
+}
+.exp-btn:hover{
+    background: none;color: black;
+}
+.ktm-models{
+    width: 100%;
+    height: 420px;
+    margin-top: 80px;
+    display: flex;
+}
+.ktm-modelo{
+    width: 32%;
+    height: 100%;
+    margin-left: 1.5%;
+
+}
+.ktm-modelt{
+    width: 32%;
+    height: 100%;
+}
+.ktm-modelth{
+    width: 32%;
+    height: 100%;
+}
+.naked{
+    width: 410px;
+    margin-left: 15px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.naked-text{
+    margin-left: 15px;
+    font-size: 13px;
+    line-height: 40px;
+    cursor: pointer;
+
+}
+.naked-bold{
+    font-size: 25px;
+}
+.own-bike{
+    width: 100%;
+    height: 845px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+.own-bikeo{
+    width: 30%;
+    height: 90%;
+    font-size: 14px;
+}
+.tetxhead-man{
+    font-size: 30px;
+}
+.bike-para{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 35px;
+    font-weight: 600;   
+}
+.bikefind-div{
+    width: 90%;
+    height: 600px;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.bikefind-bikediv{
+    width: 50%;
+    height: 70%;
+    float: left;
+}
+.bikefind-bikedivo{
+    width: 50%;
+    height: 70%;
+    float: left;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bikefind-extradiv{
+    width: 100%;
+    height: 30%;
+    float: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.riding-one{
+    width: 50%;
+    height: 50%;
+    float: left;
+    
+}
+.find-text{
+    color: #FFF;
+    font-size: 40px;
+}
+.uender-line{
+    width: 60px;
+    height: 2px;
+    background-color:rgb(155, 155, 155);
+    margin-top: -30px;
+}
+.getyour-text{
+    color: rgb(155, 155, 155);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.follow-btn{
+    background: none;
+    font-family: 'Russo One', sans-serif;
+    display: flex;
+    color: #FFF;
+    border-color: #FFF;
+    width: 170px;
+    height: 75px;
+    margin-top: 10px;
+    cursor: pointer;
+    border: solid 1;
+    border-color: #FFF;
+}
+.insta-img{
+    width: 20px;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+.join-text{
+    font-size: 18px;
+}
+.sign-btn{
+    width: 150px;
+    height: 64px;
+    font-size: 16px;
+    background: none;
+    border: solid;
+    border-color: orangered;
+    border-width: thin;
+    color: orangered;
+    font-family: 'Russo One', sans-serif;
+    margin-left: 30px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.sign-btn:hover{
+    background-color: orangered;
+    color: #FFF;
+}
+.big-line{
+    width: 100%;
+    height: 1px;
+    background-color: rgb(155, 155, 155);;
+}
+.policy{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.policy-text{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color:  rgb(155, 155, 155);
+    font-size: 12px;
+    line-height: 27px;
+
+}
+.footer{
+    width: 100%;
+    height: 637px;
+    background-color: black;
+}
+.footer-o{
+    width: 18%;
+    height: 80%;
+    float: left;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+}
+.footer-fi{
+    width: 28%;
+    height: 80%;
+    float: left;
+    
+}
+.headings{
+    font-family: 'Russo One', sans-serif ;
+    font-weight: 100;
+    font-size: 20px;
+    cursor: auto;
+    margin-top: 80px;
+    margin-left: 50px;
+}
+.o-text{
+    font-weight: 600;
+    margin-left: 50px;
+    color: #FFF;
+    line-height: 38px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.o-text:hover{
+    color: orangered;
+}
+.connect{
+    font-family: 'Russo One', sans-serif ;
+    font-weight: 100;
+    font-size: 20px;
+    margin-top: 80px;
+    margin-left: 50px;
+    line-height: 38px;
+    color: #FFF;
+}
+.logo-div{
+    width: 72%;
+    height: 60px;
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.border{
+    width: 92%;
+    height: 1px;
+    background-color: rgb(155, 155, 155);
+    float: left;
+    margin-left: 4%;
+    margin-top: 30px;
+}
+.back-div{
+    width: 92%;
+    margin-left: 4%;
+    height: 76px;
+    float: left;
+
+}
+.back-div{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
